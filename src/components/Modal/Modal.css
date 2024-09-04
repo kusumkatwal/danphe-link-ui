@@ -1,0 +1,123 @@
+.modal {
+    display: block; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+     overflow: auto;/* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    color:#1d4762;
+    
+  }
+  
+  .modal-content {
+    border-radius: 5px;
+    background-color: #fefefe;
+    margin: 10% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%; /* Could be more or less, depending on screen size */
+  }
+ .modal-first-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:20px;
+ }
+ .modal-first-row-left{
+    background-color: #f8fbfb;
+    border: 1px solid #f8fbfb;
+    border-radius: 5px;
+ }
+ .modal-heading
+ {
+    font-weight: bold;
+    font-size: 20px;
+    color:#1d4762;
+ } 
+ .modal-first-row-left img{
+    height: 230px;
+    width:230px;
+    box-shadow: inset;
+ }
+ .modal-first-row-right{
+    text-align: justify;
+ }
+
+.modal-second-row{
+    display: flex;
+    flex-direction: row;
+   
+    gap: 40px;
+}
+.modal-second-row-left{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.modal-second-row-left h3{
+    font-size: 25px;
+   
+}
+.modal-second-row-left a
+{
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: #1d4762;
+    color: white;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+}
+.modal-second-row-left a span{
+    font-size: 18px;
+}
+.modal-second-row-left a:hover{
+    background-color: #e96128;
+   transform: scale(1.1);
+}
+.modal-second-row-right 
+{
+    margin-top: -30px;
+    margin-left:80px;
+}
+.service-card
+{
+    padding: 0 20px;
+    background-color: #f8fbfb;
+    border:1px solid #e2e6e9;
+    border-radius: 5px;
+    margin: 5px;
+    width:400px;
+}
+.service-title
+{
+    font-size: 15px;
+font-weight: bold;
+}
+.service-details{
+    font-size: 12px;;
+    text-align: justify;
+}
+.modal-second-row-right h4{
+    font-size: 22px;;
+}
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #1d4762;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  

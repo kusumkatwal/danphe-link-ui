@@ -1,0 +1,80 @@
+.partner {
+  width: 1200px;
+  border-radius: 5px;
+  background-color: #f8f9fa;
+  display: flex;
+  flex-direction: column;
+  margin: 80px auto;
+  overflow: hidden;
+  align-items: center;
+  padding: 40px;
+}
+
+#heading {
+  /* margin: 30px; */
+  color: #1d4762;
+}
+
+#heading span {
+  color: #e96128;
+}
+
+.partner-slide {
+ width:100%;
+ margin:20px;
+}
+.partner-section {
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    overflow: hidden;
+   margin:auto;
+}
+.partner-card {
+  background-color: white;
+  height: 180px;
+  width: 180px;
+  margin: 10px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  box-shadow: 8px 5px 5px -5px #e1e4e9;
+  transition: all 0.3s ease;
+}
+
+.partner-card img {
+  height: 50px;
+  width: 90px;
+}
+
+.partner-card p {
+  color: #1d4762;
+}
+.text-back {
+  display: none;
+}
+.partner-card:hover {
+  background-color: #1d4762;
+  cursor: pointer;
+  transform: translateY(-5px);
+}
+.partner-card:hover img {
+  display: none;
+}
+.partner-card:hover p {
+  display: none;
+}
+.partner-card:hover .text-back {
+  display: block;
+  color: white;
+}
+.partner-card:nth-child(1) img {
+  width: 150px;
+}
+
+.partner-card:nth-child(4) img {
+  width: 100px;
+}

@@ -1,0 +1,56 @@
+.achievement-section
+{
+    margin:20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#heading{
+    text-align: center;
+    margin:0;
+}
+#tag
+{
+    width:250px;
+    text-align: center;
+    color:white;
+}
+.card-section
+{
+    margin-top:20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: #f3f6f8;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding:40px;
+    box-shadow: 0 8px 5px #eff0f3, 0 -4px 6px #eff0f3,
+    8px 0 5px rgba#eff0f3, -8px 0 5px #eff0f3;
+}
+.icon 
+{
+    margin:0px;
+    font-size: 70px;
+    color: #e96128;
+    font-weight: lighter;
+}
+.item
+{
+    font-size: 32px;
+    color: #1d4762;
+    margin:0px;
+}
+.keyword
+{
+    margin:0px;
+    font-size: 20px;
+    color:  #1d4762;
+}

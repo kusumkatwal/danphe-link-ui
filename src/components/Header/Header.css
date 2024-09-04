@@ -1,0 +1,43 @@
+.header{
+    height: 50px;
+    width: 100%;
+    background-color: #1d4762;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top:1;
+}
+.header-left{
+    padding: 0px 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: space-evenly;
+}
+.header-left span, p {
+    padding: 0px 5px;
+}
+.header-right{
+   padding: 0px 25px;
+}
+.header-icon
+{
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    padding:3px;
+    font-weight: bold;
+    
+    align-items: center;
+}
+.header-right div{
+    display: flex;
+    flex-direction: row;
+}
+.icons
+{
+    margin-right:2px;
+}

@@ -1,0 +1,15 @@
+.home
+{
+    height: 600px;;
+    background-color:#eff0f3; 
+    display: flex;
+    flex-direction: column; 
+}
+.hero {
+    margin:auto;
+    padding:50px;
+    /* width: 900px; */
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+}
